@@ -42,11 +42,16 @@ html,body{
     align-items: center;
     width: 50%;
 }
+
+
 /* logo display props */
 #navbar .logo {
     display: flex;
     align-items: center;
 }
+
+
+
 /* myntra logo in navbar*/
 .logo img {
     position: absolute;
