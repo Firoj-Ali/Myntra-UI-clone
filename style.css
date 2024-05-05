@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#hero {
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+
+}
+
+/* navbar ----- css -*/
+
+#hero #navbar {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid #dadada;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+#navbar .navleft {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50%;
+}
+
+#navbar .navright {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 50%;
+}
+/* logo display props */
+#navbar .logo {
+    display: flex;
+    align-items: center;
+}
+/* myntra logo in navbar*/
+.logo img {
+    position: absolute;
+    width: 3.9vw;
+    height: 2.8vw;
+    left: 4vw;
+
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.8vw;
+    position: absolute;
+    left: 12vw;
+    top: -6px;
+
+
+}
+
+#navbar ul li {
+    font-size: 1vw;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+    padding-bottom: 19px;
+
+}
+
+#navbar ul .men:hover {
+    border-bottom: 3px solid rgb(254, 2, 2);
+}
+
+#navbar ul .women:hover {
+    border-bottom: 3px solid #fb56c1;
+}
+
+#navbar ul .kids:hover {
+    border-bottom: 3px solid orange;
+}
+
+#navbar ul .home:hover {
+    border-bottom: 3px solid rgb(218, 194, 7);
+}
+
+#navbar ul .beauty:hover {
+    border-bottom: 3px solid #0db7af;
+}
