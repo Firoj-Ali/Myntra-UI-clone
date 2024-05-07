@@ -183,3 +183,22 @@ html,body{
     font-size: 2.1rem;
     color: #4b4949;
 }
+
+/* banner image css --*/
+
+#hero #banner {
+    position: absolute;
+    top: 120px;
+    width: 100vw;
+    height: 67vh;
+
+}
+
+#banner .banner-img {
+    background-image: url("./shoes-banner.webp");
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    background-size: 100% 100%;
+    animation: slider 15s linear infinite;
+}
