@@ -175,14 +175,6 @@ html,body{
     left: 3vw;
 }
 
-#heading .heading-line h1{
-    text-transform: uppercase;
-    font-family: 'Assistant', sans-serif; 
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 2.1rem;
-    color: #4b4949;
-}
 
 /* banner image css --*/
 
@@ -230,4 +222,20 @@ html,body{
 
         background-image: url("./girl-banner2.webp");
     }
+}
+
+
+#heading .heading-line h1{
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2.1rem;
+    color: #4b4949;
+}
+
+
+#section{
+    position: relative;
+    width: 100vw;
 }
