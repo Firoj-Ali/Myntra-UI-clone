@@ -202,3 +202,32 @@ html,body{
     background-size: 100% 100%;
     animation: slider 15s linear infinite;
 }
+
+@keyframes slider {
+    0% {
+
+        background-image: url("./shoes-banner.webp");
+    }
+
+    25% {
+
+        background-image: url("./banner.jpg");
+    }
+
+    50% {
+
+        background-image: url("./trolly-banner.jpg");
+
+    }
+
+    75% {
+
+        background-image: url("./girl-banner.webp");
+    }
+
+
+    100% {
+
+        background-image: url("./girl-banner2.webp");
+    }
+}
