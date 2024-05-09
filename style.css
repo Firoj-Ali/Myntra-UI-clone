@@ -239,3 +239,20 @@ html,body{
     position: relative;
     width: 100vw;
 }
+
+#products{
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+}
+#products .elem{
+    width: 100%;
+}
+#products .elem img{
+width: 16.5vw;
+height: 22vw;
+object-fit: cover;
+object-position: center;
+
+}
