@@ -279,4 +279,14 @@ object-position: center;
         display: flex;
         top: 70vh;
     }
-   
+    #products2 .elem{
+        width: 100%;
+    }
+    
+    #products2 .elem img{
+    width: 16.5vw;
+    height: 22vw;
+    object-fit: cover;
+    object-position: center;
+    
+    }
