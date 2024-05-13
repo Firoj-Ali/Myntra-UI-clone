@@ -290,3 +290,11 @@ object-position: center;
     object-position: center;
     
     }
+    
+    #section #category{
+        position: absolute;
+        top: 125vh;
+        left: 3vw;
+        }
+    
+    
