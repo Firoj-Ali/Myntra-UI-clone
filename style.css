@@ -290,11 +290,18 @@ object-position: center;
     object-position: center;
     
     }
-    
+
     #section #category{
         position: absolute;
         top: 125vh;
         left: 3vw;
         }
     
-    
+    #category .heading-line h1{
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2.1rem;
+    color: #4b4949;
+}
