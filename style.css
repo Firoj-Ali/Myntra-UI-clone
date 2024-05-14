@@ -305,3 +305,11 @@ object-position: center;
     font-size: 2.1rem;
     color: #4b4949;
 }
+
+#products3{
+    position: absolute;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    top: 138vh;
+}
