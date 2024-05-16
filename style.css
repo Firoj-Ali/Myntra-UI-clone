@@ -329,3 +329,19 @@ object-position: center;
     object-position: center;
     
     }
+
+    #products4{
+        position: absolute;
+        height: 40vh;
+        width: 100vw;
+        display: flex;
+        top: 185vh;
+    }
+    
+    #products4 .elem img{
+        width: 16.5vw;
+        height: 22vw;
+        object-fit: cover;
+        object-position: center;
+        
+        }
