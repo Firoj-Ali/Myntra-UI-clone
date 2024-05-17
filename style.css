@@ -198,29 +198,29 @@ html,body{
 @keyframes slider {
     0% {
 
-        background-image: url("./shoes-banner.webp");
+        background-image: url("./images/./shoes-banner.webp");
     }
 
     25% {
 
-        background-image: url("./banner.jpg");
+        background-image: url("./images/./banner.jpg");
     }
 
     50% {
 
-        background-image: url("./trolly-banner.jpg");
+        background-image: url("./images/./trolly-banner.jpg");
 
     }
 
     75% {
 
-        background-image: url("./girl-banner.webp");
+        background-image: url("./images/./girl-banner.webp");
     }
 
 
     100% {
 
-        background-image: url("./girl-banner2.webp");
+        background-image: url("./images/./girl-banner2.webp");
     }
 }
 
