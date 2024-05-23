@@ -361,3 +361,16 @@ object-position: center;
             object-position: center;
             
          }
+
+         
+     footer{
+        position: absolute;
+        background: #000;
+        height: 44vh;
+        width: 100vw;
+top: 292vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+     }
