@@ -374,3 +374,23 @@ justify-content: center;
 align-items: center;
 gap: 30px;
      }
+     .online-shoping{
+        width: 200px;
+        height: 320px;
+        background: red;
+    }
+    .customer-policy{
+        width: 200px;
+        height: 320px;
+        background: gray;
+    }
+    .app-in-mobile{
+        width: 200px;
+        height: 320px;
+        background: greenyellow;
+    }
+    .claim{
+        width: 200px;
+        height: 320px;
+        background: purple;
+    }
