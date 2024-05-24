@@ -369,38 +369,52 @@ body {
 }
 
 
-footer {
+footer{
     position: absolute;
-    background: #000;
+    
     height: 44vh;
     width: 100vw;
-    top: 292vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+top: 292vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 70px;
+ }
+
+
+.footer-heading{
+    font-family: 'Assistant', sans-serif;
+    margin-bottom: 28px;
+    font-weight: 900;
+text-transform: uppercase;
+font-size: 13.5px;
+
+}
+.sub-heading{
+font-family: 'Assistant', sans-serif;
+margin-bottom: 10px;
+font-size: 14.5px;
+color: #4b4949;
+text-transform: capitalize;
+}
+.online-shoping{
+    width: 200px;
+    height: 290px;
+    
 }
 
-.online-shoping {
+.customer-policy{
     width: 200px;
-    height: 320px;
-    background: red;
+    height: 290px;
+    
 }
-
-.customer-policy {
+.app-in-mobile{
     width: 200px;
-    height: 320px;
-    background: gray;
-}
-
-.app-in-mobile {
-    width: 200px;
-    height: 320px;
+    height: 290px;
     background: greenyellow;
 }
-
-.claim {
+.claim{
     width: 200px;
-    height: 320px;
+    height: 290px;
     background: purple;
 }
