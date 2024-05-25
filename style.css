@@ -409,12 +409,21 @@ text-transform: capitalize;
     
 }
 .app-in-mobile{
-    width: 200px;
+    width: 300px;
     height: 290px;
-    background: greenyellow;
+    
 }
 .claim{
     width: 200px;
     height: 290px;
     background: purple;
+}
+
+.store-img{
+    display: flex;
+    gap: 20px;
+}
+.store-img img{
+    width: 140px;
+
 }
